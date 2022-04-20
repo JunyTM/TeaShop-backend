@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_sites",
+  "info": {
+    "singularName": "news-site",
+    "pluralName": "news-sites",
+    "displayName": "news-site",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "text"
+    },
+    "Class": {
+      "type": "string"
+    },
+    "PhotoURL": {
+      "type": "string"
+    },
+    "VideoUrl": {
+      "type": "string"
+    },
+    "CreatedAt": {
+      "type": "date"
+    },
+    "UpdatedAt": {
+      "type": "date"
+    },
+    "DeletedAt": {
+      "type": "date"
+    }
+  }
+}

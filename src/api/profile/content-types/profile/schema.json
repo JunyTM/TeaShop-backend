@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Username": {
+      "type": "string"
+    },
+    "Password": {
+      "type": "string",
+      "required": true
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "string",
+      "required": true,
+      "default": "client"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "CreatedAt": {
+      "type": "date",
+      "required": true,
+      "default": "2022-04-18"
+    },
+    "UpdatedAt": {
+      "type": "date",
+      "default": "2022-04-18",
+      "required": true
+    },
+    "DeletedAt": {
+      "type": "date",
+      "default": "2022-04-21"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "invoices": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::invoice.invoice",
+      "mappedBy": "profile"
+    }
+  }
+}
