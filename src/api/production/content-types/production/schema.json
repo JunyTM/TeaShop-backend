@@ -35,17 +35,6 @@
     "Cost": {
       "type": "decimal"
     },
-    "CreatedAt": {
-      "type": "date",
-      "default": "2022-04-18",
-      "required": true
-    },
-    "UpdatedAt": {
-      "type": "date"
-    },
-    "DeletedAt": {
-      "type": "date"
-    },
     "cart": {
       "type": "relation",
       "relation": "manyToOne",

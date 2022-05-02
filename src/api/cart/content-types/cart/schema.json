@@ -21,20 +21,17 @@
     "Amount": {
       "type": "integer"
     },
-    "CreatedAt": {
-      "type": "date"
-    },
-    "UpdatedAt": {
-      "type": "date"
-    },
-    "DeletedAt": {
-      "type": "date"
-    },
     "productions": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::production.production",
       "mappedBy": "cart"
+    },
+    "UserID": {
+      "type": "integer"
+    },
+    "CartID": {
+      "type": "integer"
     }
   }
 }

@@ -26,15 +26,6 @@
     },
     "VideoUrl": {
       "type": "string"
-    },
-    "CreatedAt": {
-      "type": "date"
-    },
-    "UpdatedAt": {
-      "type": "date"
-    },
-    "DeletedAt": {
-      "type": "date"
     }
   }
 }

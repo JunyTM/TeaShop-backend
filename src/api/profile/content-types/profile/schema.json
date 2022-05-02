@@ -30,20 +30,6 @@
     "Address": {
       "type": "string"
     },
-    "CreatedAt": {
-      "type": "date",
-      "required": true,
-      "default": "2022-04-18"
-    },
-    "UpdatedAt": {
-      "type": "date",
-      "default": "2022-04-18",
-      "required": true
-    },
-    "DeletedAt": {
-      "type": "date",
-      "default": "2022-04-21"
-    },
     "Active": {
       "type": "boolean",
       "default": true,

@@ -30,11 +30,8 @@
     "Status": {
       "type": "string"
     },
-    "CreatedAt": {
-      "type": "date"
-    },
-    "DeletedAt": {
-      "type": "date"
+    "ProductID": {
+      "type": "integer"
     }
   }
 }
