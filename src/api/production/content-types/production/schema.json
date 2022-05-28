@@ -26,7 +26,7 @@
     "Class": {
       "type": "string"
     },
-    "IntroduceI": {
+    "Introduce": {
       "type": "text"
     },
     "VoteNum": {
